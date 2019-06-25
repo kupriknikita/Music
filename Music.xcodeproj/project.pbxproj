@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A826DB1A22C278380063F786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826DB1922C278380063F786 /* AppDelegate.swift */; };
+		A826DB1F22C278380063F786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A826DB1D22C278380063F786 /* Main.storyboard */; };
+		A826DB2122C278390063F786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A826DB2022C278390063F786 /* Assets.xcassets */; };
+		A826DB2422C278390063F786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A826DB2222C278390063F786 /* LaunchScreen.storyboard */; };
+		A826DB3E22C2797D0063F786 /* 12. A$AP Rocky - Hun43rd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB2F22C2797C0063F786 /* 12. A$AP Rocky - Hun43rd.mp3 */; };
+		A826DB3F22C2797D0063F786 /* 15. A$AP Rocky - Purity (feat. Frank Ocean).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3022C2797C0063F786 /* 15. A$AP Rocky - Purity (feat. Frank Ocean).mp3 */; };
+		A826DB4022C2797D0063F786 /* 07. A$AP Rocky - Buck Shots.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3122C2797C0063F786 /* 07. A$AP Rocky - Buck Shots.mp3 */; };
+		A826DB4122C2797D0063F786 /* 08. A$AP Rocky - Gunz N Butter (feat. Juicy J).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3222C2797C0063F786 /* 08. A$AP Rocky - Gunz N Butter (feat. Juicy J).mp3 */; };
+		A826DB4222C2797D0063F786 /* 06. A$AP Rocky - CALLDROPS (feat. Kodak Black).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3322C2797C0063F786 /* 06. A$AP Rocky - CALLDROPS (feat. Kodak Black).mp3 */; };
+		A826DB4322C2797D0063F786 /* 05. A$AP Rocky - Praise The Lord (Da Shine) (feat. Skepta).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3422C2797C0063F786 /* 05. A$AP Rocky - Praise The Lord (Da Shine) (feat. Skepta).mp3 */; };
+		A826DB4422C2797D0063F786 /* 01. A$AP Rocky - Distorted Records.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3522C2797C0063F786 /* 01. A$AP Rocky - Distorted Records.mp3 */; };
+		A826DB4522C2797D0063F786 /* 02. A$AP Rocky - A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3622C2797C0063F786 /* 02. A$AP Rocky - A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).mp3 */; };
+		A826DB4622C2797D0063F786 /* 04. A$AP Rocky - Fukk Sleep (feat. FKA twigs).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3722C2797C0063F786 /* 04. A$AP Rocky - Fukk Sleep (feat. FKA twigs).mp3 */; };
+		A826DB4722C2797D0063F786 /* 10. A$AP Rocky - OG Beeper.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3822C2797D0063F786 /* 10. A$AP Rocky - OG Beeper.mp3 */; };
+		A826DB4822C2797D0063F786 /* 14. A$AP Rocky - Black Tux, White Collar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3922C2797D0063F786 /* 14. A$AP Rocky - Black Tux, White Collar.mp3 */; };
+		A826DB4922C2797D0063F786 /* 13. A$AP Rocky - Changes.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3A22C2797D0063F786 /* 13. A$AP Rocky - Changes.mp3 */; };
+		A826DB4A22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3B22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 */; };
+		A826DB4B22C2797D0063F786 /* 11. A$AP Rocky - Kids Turned Out Fine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3C22C2797D0063F786 /* 11. A$AP Rocky - Kids Turned Out Fine.mp3 */; };
+		A826DB4C22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3D22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 */; };
+		A826DB5222C27A180063F786 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826DB5122C27A180063F786 /* TrackViewController.swift */; };
+		A826DB5422C27A860063F786 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826DB5322C27A860063F786 /* TrackListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A826DB1622C278380063F786 /* Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Music.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A826DB1922C278380063F786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A826DB1E22C278380063F786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A826DB2022C278390063F786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A826DB2322C278390063F786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A826DB2522C278390063F786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A826DB2F22C2797C0063F786 /* 12. A$AP Rocky - Hun43rd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12. A$AP Rocky - Hun43rd.mp3"; sourceTree = "<group>"; };
+		A826DB3022C2797C0063F786 /* 15. A$AP Rocky - Purity (feat. Frank Ocean).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15. A$AP Rocky - Purity (feat. Frank Ocean).mp3"; sourceTree = "<group>"; };
+		A826DB3122C2797C0063F786 /* 07. A$AP Rocky - Buck Shots.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07. A$AP Rocky - Buck Shots.mp3"; sourceTree = "<group>"; };
+		A826DB3222C2797C0063F786 /* 08. A$AP Rocky - Gunz N Butter (feat. Juicy J).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08. A$AP Rocky - Gunz N Butter (feat. Juicy J).mp3"; sourceTree = "<group>"; };
+		A826DB3322C2797C0063F786 /* 06. A$AP Rocky - CALLDROPS (feat. Kodak Black).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06. A$AP Rocky - CALLDROPS (feat. Kodak Black).mp3"; sourceTree = "<group>"; };
+		A826DB3422C2797C0063F786 /* 05. A$AP Rocky - Praise The Lord (Da Shine) (feat. Skepta).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05. A$AP Rocky - Praise The Lord (Da Shine) (feat. Skepta).mp3"; sourceTree = "<group>"; };
+		A826DB3522C2797C0063F786 /* 01. A$AP Rocky - Distorted Records.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01. A$AP Rocky - Distorted Records.mp3"; sourceTree = "<group>"; };
+		A826DB3622C2797C0063F786 /* 02. A$AP Rocky - A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02. A$AP Rocky - A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).mp3"; sourceTree = "<group>"; };
+		A826DB3722C2797C0063F786 /* 04. A$AP Rocky - Fukk Sleep (feat. FKA twigs).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04. A$AP Rocky - Fukk Sleep (feat. FKA twigs).mp3"; sourceTree = "<group>"; };
+		A826DB3822C2797D0063F786 /* 10. A$AP Rocky - OG Beeper.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10. A$AP Rocky - OG Beeper.mp3"; sourceTree = "<group>"; };
+		A826DB3922C2797D0063F786 /* 14. A$AP Rocky - Black Tux, White Collar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14. A$AP Rocky - Black Tux, White Collar.mp3"; sourceTree = "<group>"; };
+		A826DB3A22C2797D0063F786 /* 13. A$AP Rocky - Changes.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13. A$AP Rocky - Changes.mp3"; sourceTree = "<group>"; };
+		A826DB3B22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03. A$AP Rocky - Tony Tone.mp3"; sourceTree = "<group>"; };
+		A826DB3C22C2797D0063F786 /* 11. A$AP Rocky - Kids Turned Out Fine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11. A$AP Rocky - Kids Turned Out Fine.mp3"; sourceTree = "<group>"; };
+		A826DB3D22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09. A$AP Rocky - Brotha Man (feat. French Montana).mp3"; sourceTree = "<group>"; };
+		A826DB5122C27A180063F786 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		A826DB5322C27A860063F786 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A826DB1322C278380063F786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A826DB0D22C278380063F786 = {
+			isa = PBXGroup;
+			children = (
+				A826DB1822C278380063F786 /* Music */,
+				A826DB1722C278380063F786 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A826DB1722C278380063F786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A826DB1622C278380063F786 /* Music.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A826DB1822C278380063F786 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A826DB2C22C278EA0063F786 /* Application */,
+				A826DB2E22C279180063F786 /* Classes */,
+				A826DB2D22C278EF0063F786 /* Resources */,
+				A826DB2B22C278E40063F786 /* Songs */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		A826DB2B22C278E40063F786 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				A826DB3522C2797C0063F786 /* 01. A$AP Rocky - Distorted Records.mp3 */,
+				A826DB3622C2797C0063F786 /* 02. A$AP Rocky - A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).mp3 */,
+				A826DB3B22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 */,
+				A826DB3722C2797C0063F786 /* 04. A$AP Rocky - Fukk Sleep (feat. FKA twigs).mp3 */,
+				A826DB3422C2797C0063F786 /* 05. A$AP Rocky - Praise The Lord (Da Shine) (feat. Skepta).mp3 */,
+				A826DB3322C2797C0063F786 /* 06. A$AP Rocky - CALLDROPS (feat. Kodak Black).mp3 */,
+				A826DB3122C2797C0063F786 /* 07. A$AP Rocky - Buck Shots.mp3 */,
+				A826DB3222C2797C0063F786 /* 08. A$AP Rocky - Gunz N Butter (feat. Juicy J).mp3 */,
+				A826DB3D22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 */,
+				A826DB3822C2797D0063F786 /* 10. A$AP Rocky - OG Beeper.mp3 */,
+				A826DB3C22C2797D0063F786 /* 11. A$AP Rocky - Kids Turned Out Fine.mp3 */,
+				A826DB2F22C2797C0063F786 /* 12. A$AP Rocky - Hun43rd.mp3 */,
+				A826DB3A22C2797D0063F786 /* 13. A$AP Rocky - Changes.mp3 */,
+				A826DB3922C2797D0063F786 /* 14. A$AP Rocky - Black Tux, White Collar.mp3 */,
+				A826DB3022C2797C0063F786 /* 15. A$AP Rocky - Purity (feat. Frank Ocean).mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		A826DB2C22C278EA0063F786 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A826DB1922C278380063F786 /* AppDelegate.swift */,
+				A826DB2522C278390063F786 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A826DB2D22C278EF0063F786 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A826DB1D22C278380063F786 /* Main.storyboard */,
+				A826DB2022C278390063F786 /* Assets.xcassets */,
+				A826DB2222C278390063F786 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A826DB2E22C279180063F786 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A826DB5122C27A180063F786 /* TrackViewController.swift */,
+				A826DB5322C27A860063F786 /* TrackListViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A826DB1522C278380063F786 /* Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A826DB2822C278390063F786 /* Build configuration list for PBXNativeTarget "Music" */;
+			buildPhases = (
+				A826DB1222C278380063F786 /* Sources */,
+				A826DB1322C278380063F786 /* Frameworks */,
+				A826DB1422C278380063F786 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Music;
+			productName = Music;
+			productReference = A826DB1622C278380063F786 /* Music.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A826DB0E22C278380063F786 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nikita Kuprik";
+				TargetAttributes = {
+					A826DB1522C278380063F786 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A826DB1122C278380063F786 /* Build configuration list for PBXProject "Music" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A826DB0D22C278380063F786;
+			productRefGroup = A826DB1722C278380063F786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A826DB1522C278380063F786 /* Music */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A826DB1422C278380063F786 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A826DB2422C278390063F786 /* LaunchScreen.storyboard in Resources */,
+				A826DB4522C2797D0063F786 /* 02. A$AP Rocky - A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).mp3 in Resources */,
+				A826DB4722C2797D0063F786 /* 10. A$AP Rocky - OG Beeper.mp3 in Resources */,
+				A826DB4222C2797D0063F786 /* 06. A$AP Rocky - CALLDROPS (feat. Kodak Black).mp3 in Resources */,
+				A826DB4B22C2797D0063F786 /* 11. A$AP Rocky - Kids Turned Out Fine.mp3 in Resources */,
+				A826DB4122C2797D0063F786 /* 08. A$AP Rocky - Gunz N Butter (feat. Juicy J).mp3 in Resources */,
+				A826DB2122C278390063F786 /* Assets.xcassets in Resources */,
+				A826DB3E22C2797D0063F786 /* 12. A$AP Rocky - Hun43rd.mp3 in Resources */,
+				A826DB4322C2797D0063F786 /* 05. A$AP Rocky - Praise The Lord (Da Shine) (feat. Skepta).mp3 in Resources */,
+				A826DB4A22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 in Resources */,
+				A826DB4022C2797D0063F786 /* 07. A$AP Rocky - Buck Shots.mp3 in Resources */,
+				A826DB4C22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 in Resources */,
+				A826DB1F22C278380063F786 /* Main.storyboard in Resources */,
+				A826DB4822C2797D0063F786 /* 14. A$AP Rocky - Black Tux, White Collar.mp3 in Resources */,
+				A826DB4622C2797D0063F786 /* 04. A$AP Rocky - Fukk Sleep (feat. FKA twigs).mp3 in Resources */,
+				A826DB4422C2797D0063F786 /* 01. A$AP Rocky - Distorted Records.mp3 in Resources */,
+				A826DB3F22C2797D0063F786 /* 15. A$AP Rocky - Purity (feat. Frank Ocean).mp3 in Resources */,
+				A826DB4922C2797D0063F786 /* 13. A$AP Rocky - Changes.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A826DB1222C278380063F786 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A826DB5222C27A180063F786 /* TrackViewController.swift in Sources */,
+				A826DB1A22C278380063F786 /* AppDelegate.swift in Sources */,
+				A826DB5422C27A860063F786 /* TrackListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A826DB1D22C278380063F786 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A826DB1E22C278380063F786 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A826DB2222C278390063F786 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A826DB2322C278390063F786 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A826DB2622C278390063F786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A826DB2722C278390063F786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A826DB2922C278390063F786 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28R57P8KTV;
+				INFOPLIST_FILE = "$(SRCROOT)/Music/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.kuprik.Music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A826DB2A22C278390063F786 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28R57P8KTV;
+				INFOPLIST_FILE = "$(SRCROOT)/Music/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = by.kuprik.Music;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A826DB1122C278380063F786 /* Build configuration list for PBXProject "Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A826DB2622C278390063F786 /* Debug */,
+				A826DB2722C278390063F786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A826DB2822C278390063F786 /* Build configuration list for PBXNativeTarget "Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A826DB2922C278390063F786 /* Debug */,
+				A826DB2A22C278390063F786 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A826DB0E22C278380063F786 /* Project object */;
+}
