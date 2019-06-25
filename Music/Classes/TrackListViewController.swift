@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import AVFoundation
 
 var tracks: [String] = []
+var audioPlayer = AVAudioPlayer()
 
 class TrackListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -25,7 +27,13 @@ class TrackListViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        //
+        do {
+            let audioPath = Bundle.main.path(forResource: tracks[indexPath.row], ofType: ".mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+            audioPlayer.play()
+        } catch {
+            print("Error")
+        }
     }
     
 
@@ -53,9 +61,10 @@ class TrackListViewController: UIViewController, UITableViewDelegate, UITableVie
                     tracks.sort()
                 }
             }
+            
             trackListTableView.reloadData()
         } catch {
-            
+            //
         }
     }
     

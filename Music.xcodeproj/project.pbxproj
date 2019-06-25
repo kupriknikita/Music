@@ -28,6 +28,8 @@
 		A826DB4C22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A826DB3D22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 */; };
 		A826DB5222C27A180063F786 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826DB5122C27A180063F786 /* TrackViewController.swift */; };
 		A826DB5422C27A860063F786 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826DB5322C27A860063F786 /* TrackListViewController.swift */; };
+		A826DB5822C2B11F0063F786 /* Track.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A826DB5722C2B11F0063F786 /* Track.storyboard */; };
+		A826DB5A22C2B1530063F786 /* ListOfTracks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A826DB5922C2B1530063F786 /* ListOfTracks.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		A826DB3D22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09. A$AP Rocky - Brotha Man (feat. French Montana).mp3"; sourceTree = "<group>"; };
 		A826DB5122C27A180063F786 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		A826DB5322C27A860063F786 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		A826DB5722C2B11F0063F786 /* Track.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Track.storyboard; sourceTree = "<group>"; };
+		A826DB5922C2B1530063F786 /* ListOfTracks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListOfTracks.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				A826DB1D22C278380063F786 /* Main.storyboard */,
 				A826DB2022C278390063F786 /* Assets.xcassets */,
 				A826DB2222C278390063F786 /* LaunchScreen.storyboard */,
+				A826DB5722C2B11F0063F786 /* Track.storyboard */,
+				A826DB5922C2B1530063F786 /* ListOfTracks.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,10 +219,12 @@
 				A826DB4322C2797D0063F786 /* 05. A$AP Rocky - Praise The Lord (Da Shine) (feat. Skepta).mp3 in Resources */,
 				A826DB4A22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 in Resources */,
 				A826DB4022C2797D0063F786 /* 07. A$AP Rocky - Buck Shots.mp3 in Resources */,
+				A826DB5A22C2B1530063F786 /* ListOfTracks.storyboard in Resources */,
 				A826DB4C22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 in Resources */,
 				A826DB1F22C278380063F786 /* Main.storyboard in Resources */,
 				A826DB4822C2797D0063F786 /* 14. A$AP Rocky - Black Tux, White Collar.mp3 in Resources */,
 				A826DB4622C2797D0063F786 /* 04. A$AP Rocky - Fukk Sleep (feat. FKA twigs).mp3 in Resources */,
+				A826DB5822C2B11F0063F786 /* Track.storyboard in Resources */,
 				A826DB4422C2797D0063F786 /* 01. A$AP Rocky - Distorted Records.mp3 in Resources */,
 				A826DB3F22C2797D0063F786 /* 15. A$AP Rocky - Purity (feat. Frank Ocean).mp3 in Resources */,
 				A826DB4922C2797D0063F786 /* 13. A$AP Rocky - Changes.mp3 in Resources */,
