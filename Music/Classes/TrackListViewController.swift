@@ -8,7 +8,26 @@
 
 import UIKit
 
-class TrackListViewController: UIViewController {
+var tracks: [String] = []
+
+class TrackListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var trackListTableView: UITableView!
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return tracks.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "trackCell")
+        cell.textLabel?.text = tracks[indexPath.row]
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,13 +42,18 @@ class TrackListViewController: UIViewController {
             let trackPath = try FileManager.default.contentsOfDirectory(at: folderUrl, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
             
             for track in trackPath {
-                let currentTrack = track.absoluteString
-                
+                var currentTrack = track.absoluteString
+    
                 if currentTrack.contains(".mp3") {
-                    print(currentTrack)
+                    let findString = currentTrack.components(separatedBy: "/")
+                    currentTrack = findString[findString.count-1]
+                    currentTrack = currentTrack.replacingOccurrences(of: "%20", with: " ")
+                    currentTrack = currentTrack.replacingOccurrences(of: ".mp3", with: "")
+                    tracks.append(currentTrack)
+                    tracks.sort()
                 }
             }
-            
+            trackListTableView.reloadData()
         } catch {
             
         }
