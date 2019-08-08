@@ -30,6 +30,7 @@
 		A826DB5422C27A860063F786 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A826DB5322C27A860063F786 /* TrackListViewController.swift */; };
 		A826DB5822C2B11F0063F786 /* Track.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A826DB5722C2B11F0063F786 /* Track.storyboard */; };
 		A826DB5A22C2B1530063F786 /* ListOfTracks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A826DB5922C2B1530063F786 /* ListOfTracks.storyboard */; };
+		A826DB5C22C2D8BE0063F786 /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A826DB5B22C2D8BE0063F786 /* cover.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		A826DB5322C27A860063F786 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		A826DB5722C2B11F0063F786 /* Track.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Track.storyboard; sourceTree = "<group>"; };
 		A826DB5922C2B1530063F786 /* ListOfTracks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListOfTracks.storyboard; sourceTree = "<group>"; };
+		A826DB5B22C2D8BE0063F786 /* cover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cover.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A826DB2B22C278E40063F786 /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				A826DB5B22C2D8BE0063F786 /* cover.jpg */,
 				A826DB3522C2797C0063F786 /* 01. A$AP Rocky - Distorted Records.mp3 */,
 				A826DB3622C2797C0063F786 /* 02. A$AP Rocky - A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi).mp3 */,
 				A826DB3B22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 */,
@@ -220,6 +223,7 @@
 				A826DB4A22C2797D0063F786 /* 03. A$AP Rocky - Tony Tone.mp3 in Resources */,
 				A826DB4022C2797D0063F786 /* 07. A$AP Rocky - Buck Shots.mp3 in Resources */,
 				A826DB5A22C2B1530063F786 /* ListOfTracks.storyboard in Resources */,
+				A826DB5C22C2D8BE0063F786 /* cover.jpg in Resources */,
 				A826DB4C22C2797D0063F786 /* 09. A$AP Rocky - Brotha Man (feat. French Montana).mp3 in Resources */,
 				A826DB1F22C278380063F786 /* Main.storyboard in Resources */,
 				A826DB4822C2797D0063F786 /* 14. A$AP Rocky - Black Tux, White Collar.mp3 in Resources */,

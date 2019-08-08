@@ -11,6 +11,8 @@ import AVFoundation
 
 var tracks: [String] = []
 var audioPlayer = AVAudioPlayer()
+var trackIsPlaying = 0
+var audioIsEnabled = false
 
 class TrackListViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
@@ -31,6 +33,8 @@ class TrackListViewController: UIViewController, UITableViewDelegate, UITableVie
             let audioPath = Bundle.main.path(forResource: tracks[indexPath.row], ofType: ".mp3")
             try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
             audioPlayer.play()
+            audioIsEnabled = true
+            trackIsPlaying = indexPath.row
         } catch {
             print("Error")
         }

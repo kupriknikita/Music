@@ -7,23 +7,46 @@
 //
 
 import UIKit
+import AVFoundation
 
 class TrackViewController: UIViewController {
 
     @IBOutlet weak var trackNameLabel: UILabel!
     @IBOutlet weak var trackImageView: UIImageView!
-    
     @IBOutlet weak var pauseButton: UIButton!
     @IBOutlet weak var playButton: UIButton!
+    @IBOutlet weak var prevButton: UIButton!
+    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var volumeSlider: UISlider!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        playButton.isHidden = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+         trackNameLabel.text = tracks[trackIsPlaying]
+        
+        if audioIsEnabled == false {
+            trackNameLabel.isHidden = true
+            trackImageView.isHidden = true
+            pauseButton.isHidden = true
+            playButton.isHidden = true
+            prevButton.isHidden = true
+            nextButton.isHidden = true
+            volumeSlider.isHidden = true
+        } else {
+            trackNameLabel.isHidden = false
+            trackImageView.isHidden = false
+            pauseButton.isHidden = false
+            prevButton.isHidden = false
+            nextButton.isHidden = false
+            volumeSlider.isHidden = false
+        }
     }
     
     @IBAction func playTapped(_ sender: Any) {
-        if !audioPlayer.isPlaying {
+        if audioIsEnabled == true  && !audioPlayer.isPlaying {
             audioPlayer.play()
         }
         
@@ -32,8 +55,7 @@ class TrackViewController: UIViewController {
     }
     
     @IBAction func pauseTapped(_ sender: Any) {
-        
-        if audioPlayer.isPlaying {
+        if audioIsEnabled == true && audioPlayer.isPlaying {
             audioPlayer.pause()
         }
         
@@ -42,22 +64,35 @@ class TrackViewController: UIViewController {
     }
     
     @IBAction func prevTapped(_ sender: Any) {
+        if trackIsPlaying != 0 && audioIsEnabled == true {
+            playThisTrack(trackName: tracks[trackIsPlaying - 1])
+            trackIsPlaying -= 1
+            trackNameLabel.text = tracks[trackIsPlaying]
+        }
     }
     
     @IBAction func nextTapped(_ sender: Any) {
+        if trackIsPlaying < tracks.count - 1 && audioIsEnabled == true {
+            playThisTrack(trackName: tracks[trackIsPlaying + 1])
+            trackIsPlaying += 1
+            trackNameLabel.text = tracks[trackIsPlaying]
+        }
     }
     
     @IBAction func durationSlider(_ sender: UISlider) {
+        if audioIsEnabled == true {
+            audioPlayer.volume = sender.value
+        }
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func playThisTrack(trackName: String) {
+        do {
+            let audioPath = Bundle.main.path(forResource: trackName, ofType: ".mp3")
+            try audioPlayer = AVAudioPlayer(contentsOf: NSURL(fileURLWithPath: audioPath!) as URL)
+            audioPlayer.play()
+        } catch {
+            print("Error")
+        }
     }
-    */
 
 }
